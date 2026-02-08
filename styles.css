@@ -98,7 +98,8 @@ nav ul li a:hover {
 }
 
 .logo {
-    max-width: 100%;
+    width: min(200px, 40vw);
+    height: auto;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
@@ -125,11 +126,12 @@ main {
 
 /* Grid and Card Styles */
 .games-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 400px;
     justify-content: center;
-    gap: 20px; 
-    padding: 20px; 
+    gap: 20px;
+    padding: 20px;
 }
 
 .game-card {
