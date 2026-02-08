@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBC Publisher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-title-container">
+            MBC Publisher
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#games">Project</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="text">
+                <h1>Technical assets for tech artists.</h1>
+                <p>NPR, never ages.
+                </p>
+                <button id="gamesButton">Check Our Games</button>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="games">
+            <h2>Projects</h2>
+            <div class="games-grid">
+
+                <div class="game-card"
+                    data-description="NP Render Target."
+                    data-link="https://assetstore.unity.com/">
+                    <img src="assets/NPRP_Icon.png" alt="NPRP">
+                    <h3>NP Render Target</h3>
+                </div>
+
+                <!-- Add more game cards as needed -->
+            </div>
+        </section>
+
+        <!-- Modal Structure -->
+        <div id="gameModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="game-details">
+                    <h3 id="modalTitle"></h3>
+                    <img id="modalImage" src="" alt="">
+                    <p id="modalDescription"></p>
+                    <a id="assetLink" href="#" target="_blank">View on Unity Asset Store.</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <section id="about">
+            <img src="assets/logo.png" alt="Crying Snow" class="logo">
+
+            <h2>About Us</h2>
+            <p>Mykaël Boyte-Coutu, solo dev. Currently working as a tech artist at Ubisoft Montréal.</p>
+            <p>Pationate about non-physical rendering.</p>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>E-Mail:</p>
+            <p>mbc.publisher@gmail.com</p>
+        </section>
+
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; MBC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
