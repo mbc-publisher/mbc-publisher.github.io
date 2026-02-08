@@ -112,6 +112,7 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
+    background-color: #363636;
     text-align: center;
 }
 
@@ -123,12 +124,11 @@ main {
 }
 
 /* Grid and Card Styles */
-.games-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
+.games-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    gap: 20px; 
+    padding: 20px; 
 }
 
 .game-card {
