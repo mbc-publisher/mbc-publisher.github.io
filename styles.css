@@ -13,7 +13,7 @@ header {
 
 /* Style for the banner section with gradient background */
 .banner {
-    background-color: #6e6e6e;
+    background-color: #4f4f4f;
     /* Replace with your desired gradient */
     width: 100%;
     height: 360px;
@@ -113,7 +113,7 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
-    background: linear-gradient(to top, #363636, #172045);
+    background: linear-gradient(to top, #404040, #4f4f4f);
     text-align: center;
 }
 
