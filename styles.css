@@ -10,6 +10,10 @@ header {
     align-items: center;
     /*border-bottom: 1px solid rgb(204, 204, 204);*/
 }
+headerLogo {
+    width: min(50px, 8vw);
+    height: auto;
+}
 
 /* Style for the banner section with gradient background */
 .banner {
