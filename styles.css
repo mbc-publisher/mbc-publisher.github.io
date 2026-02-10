@@ -94,6 +94,10 @@ h2 {
     color: white;
 }
 
+p {
+    color: white;
+}
+
 nav ul {
     display: flex;
     padding: 0;
