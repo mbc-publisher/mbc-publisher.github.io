@@ -13,6 +13,11 @@ header {
     /*border-bottom: 1px solid rgb(204, 204, 204);*/
 }
 
+.header-right a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 .logoSmall {
     width: 50px;
     height: auto;
