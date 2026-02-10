@@ -13,7 +13,7 @@ header {
     /*border-bottom: 1px solid rgb(204, 204, 204);*/
 }
 
-.header-right a {
+.header-right {
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -136,6 +136,7 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
+    margin: 0;
     background: linear-gradient(to top, #404040, #4f4f4f);
     text-align: center;
 }
