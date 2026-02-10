@@ -80,6 +80,7 @@ header {
 }
 
 .logo-title-container {
+    display: flex;
     margin-left: 20px;
     font-size: 30px;
 }
