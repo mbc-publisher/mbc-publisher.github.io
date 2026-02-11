@@ -190,6 +190,43 @@ section {
     font-size: 1.2em;
 }
 
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff5a5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #e14a4a;
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+
 /* Modal Styles */
 .modal {
     display: none;
