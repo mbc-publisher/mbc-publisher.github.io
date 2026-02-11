@@ -82,6 +82,7 @@ header {
 }
 
 .logo-title-container {
+    color: white;
     display: flex;
     margin-left: 20px;
     font-size: 30px;
@@ -191,7 +192,7 @@ section {
 }
 
 .btn {
-    width: 150px;
+    width: 170px;
     text-align: center;
     display: inline-block;
     padding: 12px 20px;
@@ -211,7 +212,7 @@ section {
 .project-grid { 
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 400px;
+    grid-auto-columns: 440px;
     justify-content: center;
     gap: 20px;
     padding: 20px;
