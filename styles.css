@@ -35,8 +35,10 @@ header {
     display: flex;
     /* Use flexbox to center content vertically */
     align-items: center;
-    /* Center content vertically */
-    padding: 0 20px;
+    
+    margin: 0;
+    
+    padding: 0;
     /* Adjust padding as needed */
     box-sizing: border-box;
     /* Ensure padding is included in height calculation */
@@ -141,6 +143,7 @@ main {
     text-align: center;
     padding: 0;
 }
+
 section {
     margin: 0;
     padding: 0;
