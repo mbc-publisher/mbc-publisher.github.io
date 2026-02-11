@@ -191,6 +191,8 @@ section {
 }
 
 .btn {
+    flex: 1;
+    text-align: center;
     display: inline-block;
     padding: 12px 20px;
     background-color: #ff5a5a;
