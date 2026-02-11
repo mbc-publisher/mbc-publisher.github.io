@@ -191,7 +191,7 @@ section {
 }
 
 .btn {
-    flex: 1;
+    width: 150px;
     text-align: center;
     display: inline-block;
     padding: 12px 20px;
