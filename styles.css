@@ -190,16 +190,6 @@ section {
     font-size: 1.2em;
 }
 
-.project-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
 .btn {
     display: inline-block;
     padding: 12px 20px;
@@ -214,6 +204,25 @@ section {
 .btn:hover {
     background-color: #e14a4a;
     transform: scale(1.05);
+}
+
+.project-grid { 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 400px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
 }
 
 .project-card img {
