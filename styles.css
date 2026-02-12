@@ -34,7 +34,7 @@ header {
     background-color: #4f4f4f;
     /* Replace with your desired gradient */
     width: 100%;
-    height: 360px;
+    height: 200px;
     /* Set height to match image height */
     display: flex;
     /* Use flexbox to center content vertically */
@@ -50,7 +50,6 @@ header {
 .banner .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
     height: 100%;
     max-width: 1200px;
@@ -61,7 +60,6 @@ header {
 
 /* Style for the text on the left */
 .banner .text {
-    flex: 2;
     color: white;
 }
 
