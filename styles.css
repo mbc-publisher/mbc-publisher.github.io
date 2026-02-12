@@ -147,6 +147,7 @@ nav ul li a:hover {
 /* Main Content Styles */
 main {
     margin: 0;
+    height: 1000px;
     background: linear-gradient(to top, #404040, #4f4f4f);
     text-align: center;
     padding: 0;
